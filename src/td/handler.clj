@@ -4,18 +4,16 @@
             [ring.util.response :refer [resource-response response]]
             [ring.middleware.json :as middleware]
             [td.middleware :as logger]
-            [stencil.core :refer [render-string]]
-            [ring.middleware.defaults :refer [wrap-defaults site-defaults]]))
+            [ring.middleware.defaults :refer [wrap-defaults site-defaults]]
+            [clostache.parser :refer [render-resource]]))
 
 (defn read-template [filename]
-  (println (route/resources "index.html"))
-  (slurp (clojure.java.io/resource filename)))
+  (slurp (clojure.java.io/resource "templeates/index.html")))
 
 
 (defroutes app-routes
-           (GET  "/" [] (resource-response "index.html" {:root "public"}))
-           (GET  "/widgets" [] (response [{:name "Widget 1"} {:name "Widget 2"}]))
-           (GET "/blah" [] (render-string (read-template "public/templates/index.html")))
+           (GET "/blah" []
+                (render-resource "templates/index.html" {:name "Kyle"}))
            (route/resources "/" {:root "public"})
            (route/not-found "Page not found"))
 (def app

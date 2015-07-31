@@ -7,7 +7,7 @@
                  [ring/ring-defaults "0.1.2"]
                  [ring/ring-json "0.3.1"]
                  [com.taoensso/timbre "4.0.2"]
-                 [stencil "0.4.0"]]
+                 [de.ubercode.clostache/clostache "1.4.0"]]
   :plugins [[lein-ring "0.8.13"]]
   :ring {:handler td.handler/app}
   :profiles

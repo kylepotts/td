@@ -22,7 +22,7 @@
     <orderEntry type="library" name="Leiningen: ring-mock:0.1.5" level="project" />
     <orderEntry type="library" name="Leiningen: ring/ring-defaults:0.1.2" level="project" />
     <orderEntry type="library" name="Leiningen: ring/ring-json:0.3.1" level="project" />
-    <orderEntry type="library" name="Leiningen: selmer:0.8.5" level="project" />
+    <orderEntry type="library" name="Leiningen: stencil:0.4.0" level="project" />
     <orderEntry type="library" name="Leiningen: com.taoensso/encore:1.37.0" level="project" />
     <orderEntry type="library" name="Leiningen: io.aviso/pretty:0.1.18" level="project" />
     <orderEntry type="library" name="Leiningen: clout:2.1.0" level="project" />
@@ -36,17 +36,21 @@
     <orderEntry type="library" name="Leiningen: crypto-equality:1.0.0" level="project" />
     <orderEntry type="library" name="Leiningen: crypto-random:1.2.0" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/tools.reader:0.8.1" level="project" />
+    <orderEntry type="library" name="Leiningen: joda-time:2.2" level="project" />
     <orderEntry type="library" name="Leiningen: ring/ring-codec:1.0.0" level="project" />
+    <orderEntry type="library" name="Leiningen: commons-codec:1.6" level="project" />
     <orderEntry type="library" name="Leiningen: ring/ring-anti-forgery:1.0.0" level="project" />
     <orderEntry type="library" name="Leiningen: ring/ring-headers:0.1.1" level="project" />
     <orderEntry type="library" name="Leiningen: ring/ring-ssl:0.2.1" level="project" />
     <orderEntry type="library" name="Leiningen: hiccup:1.0.5" level="project" />
-    <orderEntry type="library" name="Leiningen: cheshire:5.5.0" level="project" />
-    <orderEntry type="library" name="Leiningen: commons-codec:1.10" level="project" />
-    <orderEntry type="library" name="Leiningen: joda-time:2.8.1" level="project" />
-    <orderEntry type="library" name="Leiningen: com.fasterxml.jackson.core/jackson-core:2.5.3" level="project" />
-    <orderEntry type="library" name="Leiningen: com.fasterxml.jackson.dataformat/jackson-dataformat-cbor:2.5.3" level="project" />
-    <orderEntry type="library" name="Leiningen: com.fasterxml.jackson.dataformat/jackson-dataformat-smile:2.5.3" level="project" />
+    <orderEntry type="library" name="Leiningen: cheshire:5.3.1" level="project" />
+    <orderEntry type="library" name="Leiningen: com.fasterxml.jackson.core/jackson-core:2.3.1" level="project" />
+    <orderEntry type="library" name="Leiningen: com.fasterxml.jackson.dataformat/jackson-dataformat-smile:2.3.1" level="project" />
     <orderEntry type="library" name="Leiningen: tigris:0.1.1" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/core.cache:0.6.3" level="project" />
+    <orderEntry type="library" name="Leiningen: quoin:0.1.2" level="project" />
+    <orderEntry type="library" name="Leiningen: scout:0.1.0" level="project" />
+    <orderEntry type="library" name="Leiningen: slingshot:0.10.3" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/data.priority-map:0.0.2" level="project" />
   </component>
 </module>
